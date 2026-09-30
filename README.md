@@ -1,6 +1,6 @@
 # lhg-skills · 中文 Agent Skills
 
-> **lhg-skills 是一套为中文用户打造的开源 Agent Skills**：写作、选题、调研、热点、编程、调试、安全、联网取数、演示文稿——开箱即用，一键安装。
+> **lhg-skills 是一套为中文用户打造的开源 Agent Skills**：写作、选题、调研、热点、编程、调试、安全、联网取数、演示文稿、UI 走查——开箱即用，一键安装。
 >
 > **一键安装任意 skill**：`npx skills add lhg-skills/<skill 名称>`
 
@@ -12,6 +12,7 @@
 |---|---|---|
 | [lhg-writing](https://github.com/lhg-skills/lhg-writing) | 中文写作：风格指纹 → Orwell 六规则 → AI 味诊断，写出有人味的中文 | `npx skills add lhg-skills/lhg-writing` |
 | [lhg-slides](https://github.com/lhg-skills/lhg-slides) | HTML 演示文稿：大纲/文档一键生成可编辑的单文件 slides | `npx skills add lhg-skills/lhg-slides` |
+| [lhg-ui-review](https://github.com/lhg-skills/lhg-ui-review) | 网页 UI 专家走查：截图/代码/链接三输入，五支柱找缺点，P0–P2 分级 + 可执行修复意见 | `npx skills add lhg-skills/lhg-ui-review` |
 | [lhg-trend](https://github.com/lhg-skills/lhg-trend) | 近30天热点扫描：话题火不火、为什么火、还能不能追 | `npx skills add lhg-skills/lhg-trend` |
 | [lhg-deep-research](https://github.com/lhg-skills/lhg-deep-research) | 深度调研：多源检索 → 结构化中文调研报告 | `npx skills add lhg-skills/lhg-deep-research` |
 | [lhg-benchmark-topic-factory](https://github.com/lhg-skills/lhg-benchmark-topic-factory) | 对标拆解选题工厂：找对标 → 逆向 100 条选题库 → 口播文案 | `npx skills add lhg-skills/lhg-benchmark-topic-factory` |
