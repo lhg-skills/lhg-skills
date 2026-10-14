@@ -179,4 +179,4 @@ jobs:
 | 平台 | 组织 | 备注 |
 |---|---|---|
 | GitHub | lhg-skills | 源头 |
-| Gitee | lhg-skills | 待创建 / 确认组织名 |
+| Gitee | lhg-skills | 已创建（2026-10-15），16 个仓库已导入；同步账号 `GITEE_USER` = kanshan28 |
