@@ -1,14 +1,24 @@
 # lhg-skills · 中文 Agent Skills
 
 > **lhg-skills 是一套为中文用户打造的开源 Agent Skills**：写作、选题、调研、热点、编程、调试、安全、联网取数、演示文稿、UI 走查——开箱即用，一键安装。
->
-> **一键安装任意 skill**：`npx skills add lhg-skills/<skill 名称>`
 
 刘洪光（安徽合肥）出品，全部 MIT 开源。每个 skill 都是"流程 + 方法论 + 自检机制"的完整工作流，不是 prompt 集合。
 
+## 怎么安装（推荐：发给 Agent）
+
+把下面这段话里的 `<skill 名>` 换成下表中的名称（例如 `lhg-writing`），整段发给你的 Agent（豆包 / WorkBuddy / Claude Code / Codex / Cursor 等）：
+
+> 请帮我安装 Skill「<skill 名>」：先从 Gitee 上 lhg-skills 组织下的 <skill 名> 仓库下载；如果 Gitee 无法访问或下载失败，改从 GitHub 上 lhg-skills 组织下的同名仓库下载。按当前 Agent 的规范安装其中的 Skill，优先全局安装，保留完整目录和依赖。请直接执行，完成后验证是否安装成功，告诉我实际使用的来源、安装的版本号以及如何调用；遇到访问或安装限制请说明具体原因。
+
+国内用户默认从 Gitee 镜像下载，打不开时自动改用 GitHub。只是打开了仓库网页不算安装，Agent 报出版本号才算装好。
+
+能访问 GitHub、会用命令行时，也可以直接：`npx skills add lhg-skills/<skill 名>`
+
+分发规范见 [SKILL-DISTRIBUTION.md](SKILL-DISTRIBUTION.md)。
+
 ## Skills 矩阵
 
-| Skill | 一句话 | 安装 |
+| Skill | 一句话 | 开发者安装 |
 |---|---|---|
 | [lhg-writing](https://github.com/lhg-skills/lhg-writing) | 中文写作：风格指纹 → Orwell 六规则 → AI 味诊断，写出有人味的中文 | `npx skills add lhg-skills/lhg-writing` |
 | [lhg-slides](https://github.com/lhg-skills/lhg-slides) | HTML 演示文稿：大纲/文档一键生成可编辑的单文件 slides | `npx skills add lhg-skills/lhg-slides` |
@@ -29,6 +39,9 @@
 
 **和 awesome 列表里的英文 skill 有什么区别？**
 中文优先：中文写作指纹、中文互联网取数、中文内容选题——英文 skill 覆盖不到的场景。
+
+**一定要有 Gitee 吗？**
+不需要。Gitee 是 GitHub 的国内镜像，内容自动同步，只是为了让打不开 GitHub 的用户也能装上。
 
 **怎么给 skill 提问题或建议？**
 每个仓库 README 底部有自检与反馈机制，欢迎提 issue。
