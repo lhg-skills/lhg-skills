@@ -48,5 +48,5 @@
 
 ## 关注
 
-- 视频号：搜「刘洪光实名上网」
+- 抖音：搜「刘老师讲AI实战」
 - 全部 skill 开源在 https://github.com/lhg-skills ，欢迎 star ⭐
