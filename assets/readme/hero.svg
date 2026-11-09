@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="360" viewBox="0 0 1200 360"
+     role="img" aria-labelledby="title desc">
+  <title id="title">lhg-skills — 中文 Agent Skills</title>
+  <desc id="desc">18 个可安装 skill + 1 门学习课程：写作、选题、调研、热点、编程、调试、安全、联网取数、演示文稿，开箱即用，一键安装。</desc>
+
+  <defs>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="14" fill="#10233F"/>
+  <rect x="1" y="1" width="1198" height="358" rx="14" fill="none" stroke="#24344D" stroke-width="1.5"/>
+
+  <g id="title-block">
+    <rect x="64" y="62" width="12" height="12" fill="#F5C451"/>
+    <text class="mono" x="86" y="74" font-size="17" letter-spacing="2" fill="#94A3B8">中文 AGENT SKILLS · 组织总览</text>
+    <text class="sans" x="64" y="152" font-size="72" font-weight="700" fill="#F1F5F9">lhg-skills</text>
+    <text class="sans" x="64" y="196" font-size="26" font-weight="700" fill="#E8B84B">中文 Agent Skills</text>
+    <text class="sans" x="64" y="238" font-size="21" fill="#F1F5F9">写作、选题、调研、热点、编程、调试、安全、取数、演示。</text>
+  </g>
+
+  <line x1="700" y1="56" x2="700" y2="256" stroke="#24344D" stroke-width="1.5"/>
+
+  <g id="proof">
+    <text class="sans" x="740" y="74" font-size="17" fill="#94A3B8">组织里现在有什么</text>
+    <text class="mono" x="740" y="118" font-size="20" font-weight="700" fill="#F5C451">18 个</text>
+    <text class="sans" x="802" y="118" font-size="22" font-weight="700" fill="#F1F5F9">可安装 skill</text>
+    <text class="mono" x="740" y="164" font-size="20" font-weight="700" fill="#F5C451">19 个</text>
+    <text class="sans" x="802" y="164" font-size="22" font-weight="700" fill="#F1F5F9">组织内仓库</text>
+    <text class="mono" x="740" y="210" font-size="20" font-weight="700" fill="#F5C451">双源分发</text>
+    <text class="sans" x="834" y="210" font-size="22" font-weight="700" fill="#F1F5F9">Gitee 优先 · GitHub 兜底</text>
+  </g>
+
+  <line x1="64" y1="288" x2="1136" y2="288" stroke="#24344D" stroke-width="1.5"/>
+  <g id="install">
+    <text class="mono" x="64" y="327" font-size="16" fill="#94A3B8">安装任意一个</text>
+    <text class="mono" x="176" y="327" font-size="20" font-weight="700" fill="#E8B84B">npx skills add lhg-skills/&lt;skill 名&gt;</text>
+  </g>
+</svg>
